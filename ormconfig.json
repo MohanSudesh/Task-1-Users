@@ -1,0 +1,12 @@
+{
+  "name": "default",
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "Typegqlex",
+  "password": "abcdef",
+  "database": "typedb",
+  "logging": true,
+  "synchronize": true,
+  "entities": ["src/entity/*.*"]
+}
