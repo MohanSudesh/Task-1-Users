@@ -1289,10 +1289,10 @@ gauge@~2.7.3:
     strip-ansi "^3.0.1"
     wide-align "^1.1.0"
 
-generic-pool@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/generic-pool/-/generic-pool-2.1.1.tgz#af04dc2c325cfcb975023fa52bfce9617a7435fd"
-  integrity sha1-rwTcLDJc/Ll1Aj+lK/zpYXp0Nf0=
+generic-pool@2.4.2:
+  version "2.4.2"
+  resolved "https://registry.yarnpkg.com/generic-pool/-/generic-pool-2.4.2.tgz#886bc5bf0beb7db96e81bcbba078818de5a62683"
+  integrity sha1-iGvFvwvrfblugby7oHiBjeWmJoM=
 
 get-caller-file@^2.0.1:
   version "2.0.5"
@@ -1818,6 +1818,11 @@ iterall@^1.1.3, iterall@^1.2.1, iterall@^1.2.2:
   version "1.2.2"
   resolved "https://registry.yarnpkg.com/iterall/-/iterall-1.2.2.tgz#92d70deb8028e0c39ff3164fdbf4d8b088130cd7"
   integrity sha512-yynBb1g+RFUPY64fTrFv7nsjRrENBQJaX2UL+2Szc9REFrSNm1rpSXHGzhmAy7a9uv3vlvgBlXnf9RqmPH1/DA==
+
+js-string-escape@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/js-string-escape/-/js-string-escape-1.0.1.tgz#e2625badbc0d67c7533e9edc1068c587ae4137ef"
+  integrity sha1-4mJbrbwNZ8dTPp7cEGjFh65BN+8=
 
 js-yaml@^3.13.1:
   version "3.13.1"
@@ -2451,13 +2456,14 @@ pg-types@1.*:
     postgres-date "~1.0.0"
     postgres-interval "^1.1.0"
 
-pg@4.5.5:
-  version "4.5.5"
-  resolved "https://registry.yarnpkg.com/pg/-/pg-4.5.5.tgz#c17af513e30ba7e93a18bbaadbe71a84d3c6cbbd"
-  integrity sha1-wXr1E+MLp+k6GLuq2+cahNPGy70=
+pg@4.5.7:
+  version "4.5.7"
+  resolved "https://registry.yarnpkg.com/pg/-/pg-4.5.7.tgz#45ae16b23706a6345a03279decc6af795c16d29b"
+  integrity sha1-Ra4WsjcGpjRaAyed7MaveVwW0ps=
   dependencies:
     buffer-writer "1.0.1"
-    generic-pool "2.1.1"
+    generic-pool "2.4.2"
+    js-string-escape "1.0.1"
     packet-reader "0.2.0"
     pg-connection-string "0.1.3"
     pg-types "1.*"
